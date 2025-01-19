@@ -8,3 +8,9 @@ Libraries used:
 
 - [shadcn/ui](https://ui.shadcn.com/)
 - [daisyUI](https://daisyui.com/)
+
+To build:
+
+(in root dir):
+
+`npm run build`

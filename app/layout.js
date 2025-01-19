@@ -8,9 +8,9 @@ export const metadata = {
   title: "chris cliff",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }) {    
   return (
-    <html lang="en">
+    <html lang="en" className="bg-background text-foreground">
       <link rel="icon" href="/icon.ico" sizes="any" />
       <body className={courier_prime.className}>
         <Nav ></Nav>

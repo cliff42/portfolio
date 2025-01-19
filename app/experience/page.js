@@ -5,13 +5,29 @@ export default function Page() {
         <main className="flex flex-col items-center justify-center space-y-8 mx-auto max-w-5xl mt-20">
             <ul className="timeline timeline-vertical timeline-snap-icon">
                 <li>
-                    <div className="timeline-start mr-8">Jun 2023 - Present</div>
+                    <div className="timeline-end mr-8">Oct 2024 - Present</div>
+                        <div className="timeline-middle">
+                        <div className="w-20 h-20 bg-gray-300 rounded-full flex justify-center items-center -mt-10">
+                            <img src="/images/waabi.png" alt="waabi icon" className="w-10" />
+                        </div>
+                        </div>
+                        <div className="timeline-start timeline-box ml-8 shadow-xl bg-background border-border">
+                            <div className="text-2xl">Waabi</div>
+                            <div className="text-xl mb-4">Software Developer</div>
+                            • Software developer on the internal tools team 🤖🚚. 
+                            <br></br>
+                            <br></br>
+                        </div>
+                    <hr />
+                </li>
+                <li>
+                    <div className="timeline-start mr-8">Jun 2023 - Oct 2024</div>
                         <div className="timeline-middle">
                         <div className="w-20 h-20 bg-gray-300 rounded-full flex justify-center items-center -mt-10">
                             <img src="/images/rbc.png" alt="rbc icon" className="w-10" />
                         </div>
                         </div>
-                        <div className="timeline-end timeline-box ml-8 shadow-xl">
+                        <div className="timeline-end timeline-box ml-8 shadow-xl bg-background border-border">
                             <div className="text-2xl">Royal Bank of Canada</div>
                             <div className="text-xl mb-4">GenAI Platform Engineer</div>
                             • Developed, deployed, and brought to production a platform to expose LLMs for enterprise use, using Python,
@@ -35,7 +51,7 @@ export default function Page() {
                         <img src="/images/rbc.png" alt="rbc icon" className="w-10" />
                     </div>
                     </div>
-                    <div className="timeline-start timeline-box mr-8 shadow-xl">
+                    <div className="timeline-start timeline-box mr-8 shadow-xl bg-background border-border">
                         <div className="text-2xl">Royal Bank of Canada</div>
                         <div className="text-xl mb-4">Amplify Developer</div>
                         • Inventor on patent filed by RBC: US20240070771A1, ”System and method for applying user data in accessing of
@@ -58,7 +74,7 @@ export default function Page() {
                             <img src="/images/netapp.png" alt="netapp icon" className="w-10" />
                         </div>
                         </div>
-                        <div className="timeline-end timeline-box ml-8 shadow-xl">
+                        <div className="timeline-end timeline-box ml-8 shadow-xl bg-background border-border">
                             <div className="text-2xl">NetApp</div>
                             <div className="text-xl mb-4">Software Developer Intern</div>
                             • Was given full responsibility as a key stakeholder as part of StorageGRID to design and develop a full stack solution
@@ -77,7 +93,7 @@ export default function Page() {
                         <img src="/images/incognito.png" alt="incognito icon" className="w-10" />
                     </div>
                     </div>
-                    <div className="timeline-start timeline-box mr-8 shadow-xl">
+                    <div className="timeline-start timeline-box mr-8 shadow-xl bg-background border-border">
                         <div className="text-2xl">Incognito Software Systems</div>
                         <div className="text-xl mb-4">Co-op Software Developer</div>
                         • Created automated regression tests using Java and Selenium, leading to a 30% reduction in total testing time.
@@ -95,7 +111,7 @@ export default function Page() {
                         <img src="/images/uofa.png" alt="u of a icon" className="w-20" />
                     </div>
                     </div>
-                    <div className="timeline-end timeline-box ml-8 shadow-xl">
+                    <div className="timeline-end timeline-box ml-8 shadow-xl bg-background border-border">
                         <div className="text-2xl">University of Alberta</div>
                         <div className="text-xl mb-4">Research Assistant</div>
                         • Researched and compared the A.I. entrepreneurial ecosystems of Edmonton and Vancouver - acknowledged in the
